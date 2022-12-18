@@ -34,7 +34,7 @@ public class Alertexample {
         promptbox.click();
         Alert promptalert = driver.switchTo().alert();
         promptalert.sendKeys("ducklings");
-        promptalert.accept();
+        promptalert.accept();  //Adding test comment
         
         
 
